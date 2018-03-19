@@ -83,6 +83,8 @@ gem 'cells-erb'
 ### gem 'jquery-turbolinks'
 ### gem 'active_link_to'
 ### gem "recaptcha", require: "recaptcha/rails"
+### gem 'actionview-encoded_mail_to'
+### gem 'mobile-fu'
 
 # SEARCH ...........................
 
