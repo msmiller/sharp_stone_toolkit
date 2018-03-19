@@ -1,0 +1,16 @@
+defaults: &defaults
+  major: 0
+  minor: 1
+  update: 1
+  patch: 1
+  milestone: beta
+  date: 2001-01-01
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
