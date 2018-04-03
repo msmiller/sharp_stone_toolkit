@@ -59,6 +59,7 @@ gem 'cells-erb'
     # => https://github.com/bokmann/font-awesome-rails - built into SemanticUI
 ### gem 'feathericon-rails'
     # => http://feathericon.com
+### gem 'ionicons-rails', '~> 2.0'
 
 ### gem "selectize-rails"
     # http://selectize.github.io/selectize.js/
