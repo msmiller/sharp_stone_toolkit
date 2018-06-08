@@ -39,7 +39,7 @@ gem 'kaminari'
 
 ### gem 'acts-as-taggable-on', '~> 5.0' 
     # => https://github.com/mbleigh/acts-as-taggable-on
-gem 'draper', '~> 3.0', '>= 3.0.1'
+gem 'draper'
 
 gem 'active_interaction'
 gem 'active_interaction-active_job'             
@@ -47,32 +47,34 @@ gem 'active_interaction-active_job'
 ### gem 'wisper'
 ### gem 'wisper-activerecord'
 
+gem 'pluck_all'
+### gem 'friendly_id'
+
 # UI ...............................
 
 gem 'cells-rails'
 gem 'cells-erb'
+gem 'active_link_to'
 
 ### gem 'colorize'
 ### gem 'crummy'
 ### gem 'clipboard-rails'
-### gem "font-awesome-rails"
-    # => https://github.com/bokmann/font-awesome-rails - built into SemanticUI
-### gem 'feathericon-rails'
-    # => http://feathericon.com
+### gem "font-awesome-rails"            # => https://github.com/bokmann/font-awesome-rails - built into SemanticUI
+### gem 'feathericon-rails'             # => http://feathericon.com
 ### gem 'ionicons-rails', '~> 2.0'
 
-### gem "selectize-rails"
-    # http://selectize.github.io/selectize.js/
-### gem "chartkick"
+### gem "selectize-rails"               # http://selectize.github.io/selectize.js/
 ### gem 'momentjs-rails'
 ### gem 'rails-timeago', '~> 2.0'
 ### gem 'mustache-js-rails'
 
+# -- Charts --
+### gem 'chart-js-rails'
+### gem "chartkick"
+
 # -- Bootstrap --
-### gem 'bootstrap', '~> 4.0' 
-    # => https://github.com/twbs/bootstrap-rubygem
-### gem 'jquery-rails'
-    # Required for Bootstrap                              
+### gem 'bootstrap', '~> 4.0'           # => https://github.com/twbs/bootstrap-rubygem
+### gem 'jquery-rails'                  # Required for Bootstrap                              
 
 # -- Semantic --
 ### gem 'semantic-ui-sass'
@@ -82,10 +84,10 @@ gem 'cells-erb'
 ### gem 'masonry-rails'
 
 ### gem 'jquery-turbolinks'
-### gem 'active_link_to'
 ### gem "recaptcha", require: "recaptcha/rails"
 ### gem 'actionview-encoded_mail_to'
 ### gem 'mobile-fu'
+### gem 'gon'
 
 # SEARCH ...........................
 
@@ -112,9 +114,21 @@ gem 'dotenv-rails', groups: [:development, :test]
 ### gem 'namae'
 ### gem 'favicon_maker'
 
-### gem 'rails_admin', '~> 1.2'
-    # =>#https://github.com/sferik/rails_admin
+# -- API/APP Support --
+### gem 'jwt'
+### gem 'rack-cors', :require => 'rack/cors'
+
+# -- Exception Tracking --
+### gem 'rollbar'
+### gem "bugsnag"
+
+# -- Email --
+### gem 'sendgrid-ruby'
+
+# -- Admin Console --
+### gem 'rails_admin', '~> 1.2' # =>#https://github.com/sferik/rails_admin
 ### gem "rails_admin_pundit", :github => "sudosu/rails_admin_pundit"
+### gem 'administrate'
 
 #         SHARP STONE GEMS         #
 ####################################
