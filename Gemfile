@@ -24,13 +24,16 @@
 
 # CORE .............................
 
+# -- Authorization --
 ### gem 'pundit'
 ### gem 'devise'
-### gem "switch_user"    
+### gem "switch_user"
     # => https://github.com/flyerhzm/switch_user
 ### gem 'devise_masquerade'                     
     # => https://github.com/oivoodoo/devise_masquerade                       
 ### gem 'rolify'
+### gem crows
+
 gem 'finishing_moves'
 gem 'kaminari'
 
@@ -39,6 +42,7 @@ gem 'kaminari'
 
 ### gem 'acts-as-taggable-on', '~> 5.0' 
     # => https://github.com/mbleigh/acts-as-taggable-on
+
 gem 'draper'
 
 gem 'active_interaction'
@@ -105,6 +109,8 @@ gem 'active_link_to'
 ### gem 'redcarpet'
 ### gem 'boolean'
 ### gem "humanize"
+### gem 'ledermann-rails-settings'
+### gem 'awesome_nested_set' # https://github.com/collectiveidea/awesome_nested_set
 
 gem 'settingslogic'
 gem "default_value_for"
