@@ -36,9 +36,12 @@
 
 gem 'finishing_moves'
 gem 'kaminari'
+### gem 'pagy'
+    # => https://github.com/ddnexus/pagy
 
 ### gem 'parallel'
 ### gem 'spawnling', '~>2.1'
+### require 'concurrent'
 
 ### gem 'acts-as-taggable-on', '~> 5.0' 
     # => https://github.com/mbleigh/acts-as-taggable-on
@@ -63,9 +66,6 @@ gem 'active_link_to'
 ### gem 'colorize'
 ### gem 'crummy'
 ### gem 'clipboard-rails'
-### gem "font-awesome-rails"            # => https://github.com/bokmann/font-awesome-rails - built into SemanticUI
-### gem 'feathericon-rails'             # => http://feathericon.com
-### gem 'ionicons-rails', '~> 2.0'
 
 ### gem "selectize-rails"               # http://selectize.github.io/selectize.js/
 ### gem 'momentjs-rails'
@@ -87,6 +87,12 @@ gem 'active_link_to'
 ### gem 'bulma-rails'
 ### gem 'masonry-rails'
 
+# -- Other UI Toolkits --
+### gem 'spectre_scss'
+### gem "font-awesome-rails"            # => https://github.com/bokmann/font-awesome-rails - built into SemanticUI
+### gem 'feathericon-rails'             # => http://feathericon.com
+### gem 'ionicons-rails', '~> 2.0'
+
 ### gem 'jquery-turbolinks'
 ### gem "recaptcha", require: "recaptcha/rails"
 ### gem 'actionview-encoded_mail_to'
@@ -100,8 +106,10 @@ gem 'active_link_to'
 ### gem 'high_voltage'
 ### gem 'favicon_maker'
 ### gem 'agent_orange'
+
 ### gem 'auto_html'
 ### gem 'rinku'
+
 ### gem 'activevalidators'
 ### gem 'jwt', '~> 1.5', '>= 1.5.4'
 ### gem 'classy_hash' # https://github.com/deseretbook/classy_hash
@@ -109,7 +117,9 @@ gem 'active_link_to'
 ### gem 'redcarpet'
 ### gem 'boolean'
 ### gem "humanize"
-### gem 'ledermann-rails-settings'
+
+### rails-settings-cached
+gem 'ledermann-rails-settings'
 ### gem 'awesome_nested_set' # https://github.com/collectiveidea/awesome_nested_set
 
 gem 'settingslogic'
@@ -135,6 +145,12 @@ gem 'dotenv-rails', groups: [:development, :test]
 ### gem 'rails_admin', '~> 1.2' # =>#https://github.com/sferik/rails_admin
 ### gem "rails_admin_pundit", :github => "sudosu/rails_admin_pundit"
 ### gem 'administrate'
+### gem 'active_scaffold' # requires: gem 'jquery-rails'
+
+# -- Analytics --
+
+### gem 'impressionist'
+### gem 'ahoy_matey'
 
 #         SHARP STONE GEMS         #
 ####################################
