@@ -13,7 +13,6 @@
 # UI ...............................
 
 ### gem 'trumbowyg_rails'
-### gem 'best_in_place'
 ### gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
 #          APP SPECIFIC GEMS         #
@@ -29,8 +28,8 @@
 ### gem 'devise'
 ### gem "switch_user"
     # => https://github.com/flyerhzm/switch_user
-### gem 'devise_masquerade'                     
-    # => https://github.com/oivoodoo/devise_masquerade                       
+### gem 'devise_masquerade'
+    # => https://github.com/oivoodoo/devise_masquerade
 ### gem 'rolify'
 ### gem crows
 
@@ -43,13 +42,13 @@ gem 'kaminari'
 ### gem 'spawnling', '~>2.1'
 ### require 'concurrent'
 
-### gem 'acts-as-taggable-on', '~> 5.0' 
+### gem 'acts-as-taggable-on', '~> 5.0'
     # => https://github.com/mbleigh/acts-as-taggable-on
 
 gem 'draper'
 
 gem 'active_interaction'
-gem 'active_interaction-active_job'             
+gem 'active_interaction-active_job'
     # => https://github.com/antulik/active_interaction-active_job
 ### gem 'wisper'
 ### gem 'wisper-activerecord'
@@ -71,6 +70,7 @@ gem 'active_link_to'
 ### gem 'momentjs-rails'
 ### gem 'rails-timeago', '~> 2.0'
 ### gem 'mustache-js-rails'
+### gem 'mustache'
 
 # -- Charts --
 ### gem 'chart-js-rails'
@@ -78,26 +78,29 @@ gem 'active_link_to'
 
 # -- Bootstrap --
 ### gem 'bootstrap', '~> 4.0'           # => https://github.com/twbs/bootstrap-rubygem
-### gem 'jquery-rails'                  # Required for Bootstrap                              
+### gem 'jquery-rails'                  # Required for Bootstrap
 
 # -- Semantic --
 ### gem 'semantic-ui-sass'
 
 # -- Bulma --
 ### gem 'bulma-rails'
-### gem 'masonry-rails'
+### gem 'bulma-extensions-rails'
 
 # -- Other UI Toolkits --
 ### gem 'spectre_scss'
 ### gem "font-awesome-rails"            # => https://github.com/bokmann/font-awesome-rails - built into SemanticUI
 ### gem 'feathericon-rails'             # => http://feathericon.com
 ### gem 'ionicons-rails', '~> 2.0'
+### gem 'masonry-rails'
 
 ### gem 'jquery-turbolinks'
 ### gem "recaptcha", require: "recaptcha/rails"
 ### gem 'actionview-encoded_mail_to'
 ### gem 'mobile-fu'
 ### gem 'gon'
+### gem 'render_async'
+### gem 'best_in_place'
 
 # SEARCH ...........................
 
@@ -107,8 +110,11 @@ gem 'active_link_to'
 ### gem 'favicon_maker'
 ### gem 'agent_orange'
 
-### gem 'auto_html'
+### gem 'browser'
+### gem 'mobile-fu'
+
 ### gem 'rinku'
+### ### gem 'auto_html'
 
 ### gem 'activevalidators'
 ### gem 'jwt', '~> 1.5', '>= 1.5.4'
@@ -118,8 +124,8 @@ gem 'active_link_to'
 ### gem 'boolean'
 ### gem "humanize"
 
-### rails-settings-cached
-gem 'ledermann-rails-settings'
+### gem 'ledermann-rails-settings'
+### ### gem rails-settings-cached
 ### gem 'awesome_nested_set' # https://github.com/collectiveidea/awesome_nested_set
 
 gem 'settingslogic'
@@ -129,6 +135,9 @@ gem 'dotenv-rails', groups: [:development, :test]
 ### gem 'boolean'
 ### gem 'namae'
 ### gem 'favicon_maker'
+### gem 'hash_dot'
+### gem 'simple_form'
+### gem 'show_for'
 
 # -- API/APP Support --
 ### gem 'jwt'
@@ -148,7 +157,6 @@ gem 'dotenv-rails', groups: [:development, :test]
 ### gem 'active_scaffold' # requires: gem 'jquery-rails'
 
 # -- Analytics --
-
 ### gem 'impressionist'
 ### gem 'ahoy_matey'
 
@@ -156,7 +164,7 @@ gem 'dotenv-rails', groups: [:development, :test]
 ####################################
 
 #################################################
-#         SHARP STONE DEVELOPMENT STACK         # 
+#         SHARP STONE DEVELOPMENT STACK         #
 
 gem 'awesome_print'
 gem 'seedbank'
@@ -176,7 +184,7 @@ group :development do
   ### gem 'rails_db'                            # doesn't work with Rails5
 end
 
-#         SHARP STONE DEVELOPMENT STACK         # 
+#         SHARP STONE DEVELOPMENT STACK         #
 #################################################
 
 # ---- STANDARD RAILS STUFF STARTING WITH ...
