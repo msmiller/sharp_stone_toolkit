@@ -75,6 +75,7 @@ gem 'active_link_to'
 # -- Charts --
 ### gem 'chart-js-rails'
 ### gem "chartkick"
+### gem 'groupdate'
 
 # -- Bootstrap --
 ### gem 'bootstrap', '~> 4.0'           # => https://github.com/twbs/bootstrap-rubygem
